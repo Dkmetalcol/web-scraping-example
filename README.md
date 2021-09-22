@@ -77,7 +77,7 @@ php artisan schedule:run
 Se debe ejecutar el daemon del schedule de Laravel con
 
 ```
-php artisan schedule:run
+php artisan schedule:work
 ```
 
 Esto se hará según la programación que hemos configurado en el `app\Console\Kernel.php` este proceso no se debe detener si se quiere respetar la programación.
